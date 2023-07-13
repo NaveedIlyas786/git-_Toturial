@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Array Methods</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/2675dd171a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-size: 40px;
+      }
+      .parentDiv {
+        background-color: aqua;
+        width: 80%;
+        height: 60vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .leftDiv {
+        background-color: red;
+      }
+      table {
+        border: 1px solid black;
+        width: 300px;
+        margin-left: 5rem;
+      }
+      input {
+        padding: 5px;
+      }
+      button {
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function myfun() {
+        const val1 =[1,2,3,4]
+        const val2 =[1,2,3,4]
+
+        const res=[...val1,...val2]
+        console.log(res);
+      }
+      myfun()
+    </script>
+  </body>
+</html>
